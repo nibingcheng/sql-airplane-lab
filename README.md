@@ -74,10 +74,35 @@ You should have now seeded three tables with flight data. Run `SELECT * FROM <ta
 ## Goal
 
 1. Select airport code for airports LIKE `'John F Kennedy'` or `'De Gaulle'`. 
+
+```sql
+ANSWER HERE
+```
+
 2. Select all of the flights originating from `'JFK'` AND going to `'CDG'`.
+
+```sql
+ANSWER HERE
+```
+
+
 3. Find out the NUMBER of airports in Canada.
+
+```sql
+ANSWER HERE
+```
+
 4. Select airport names IN Algeria, Ghana, and Ethiopia. Order the results by country.  
+
+```sql
+ANSWER HERE
+```
+
 5. Select all of the airports from which `'Germania'` Airlines flies.
+
+```sql
+ANSWER HERE
+```
 
 ## Bonus
 
