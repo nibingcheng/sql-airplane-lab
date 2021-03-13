@@ -76,26 +76,31 @@ You should have now seeded three tables with flight data. Run `SELECT * FROM <ta
 1. Select airport code for airports LIKE `'John F Kennedy'` or `'De Gaulle'`. 
 
 ```sql
-ANSWER HERE
+select * from airports where name like '%De G%'
+select * from airports where name like 'John F K%'
 ```
 
 2. Select all of the flights originating from `'JFK'` AND going to `'CDG'`.
 
 ```sql
-ANSWER HERE
+select * from routes where origin_code = 'JFK' and dest_code = 'CDG';
 ```
 
 
 3. Find out the NUMBER of airports in Canada.
 
 ```sql
-ANSWER HERE
+select * from airports where country = 'Canada';
 ```
 
 4. Select airport names IN Algeria, Ghana, and Ethiopia. Order the results by country.  
 
 ```sql
-ANSWER HERE
+select name, country from airports 
+	where country = 'Algeria' or
+	country = 'Ghana' or
+	country = 'Ethiopia'
+	order by country;
 ```
 
 5. Select all of the airports from which `'Germania'` Airlines flies.
